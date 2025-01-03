@@ -8,7 +8,7 @@ azs                   = ["ap-southeast-2a", "ap-southeast-2b", "ap-southeast-2c"
 eks_enabled_log_types = ["api", "audit", "authenticator", "controllerManager", "scheduler"]
 eks_service_ipv4_cidr = "10.190.0.0/16"
 
-instance_types = ["t3.micro"]
+instance_types = ["t3.medium"]
 
 eks_public_access_cidrs = [
   "0.0.0.0/0"
